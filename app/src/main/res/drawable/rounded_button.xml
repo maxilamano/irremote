@@ -1,0 +1,15 @@
+<!-- res/drawable/bg_custom_corners_down.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <solid android:color="#87A4F6" />
+    <!-- Borde -->
+    <stroke
+        android:width="2dp"
+        android:color="#5366e0" />
+    <corners
+        android:topLeftRadius="100dp"
+        android:topRightRadius="100dp"
+        android:bottomLeftRadius="100dp"
+        android:bottomRightRadius="100dp" />
+</shape>

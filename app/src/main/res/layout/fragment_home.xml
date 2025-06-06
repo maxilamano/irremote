@@ -4,19 +4,96 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#334768"
     tools:context=".ui.home.HomeFragment">
 
-    <TextView
-        android:id="@+id/text_home"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:textAlignment="center"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="116dp"
+        android:background="@drawable/rounded_button"
+        android:contentDescription="encendido"
+        android:scaleType="fitCenter"
+        android:src="@drawable/power_button_icon_2048x2048_8io27nwc"
         app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.951"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:tint="#FFFFFF"
+        tools:src="@drawable/power_button_icon_2048x2048_8io27nwc" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        style="@android:style/Widget.DeviceDefault.Light.ImageButton"
+        android:layout_width="75dp"
+        android:layout_height="140dp"
+        android:layout_marginStart="244dp"
+        android:layout_marginTop="204dp"
+        android:background="@drawable/bg_custom_corners_up"
+        android:baselineAlignBottom="true"
+        android:contentDescription="canal arriba"
+        android:scaleType="fitCenter"
+
+        android:src="@drawable/arrow_drop_up"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tint="#FFFFFF" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        style="@android:style/Widget.DeviceDefault.Light.ImageButton"
+        android:layout_width="75dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="196dp"
+        android:layout_marginEnd="244dp"
+        android:background="@drawable/bg_custom_corners_up"
+        android:baselineAlignBottom="true"
+        android:contentDescription="volumen arriba"
+        android:scaleType="fitCenter"
+
+        android:src="@drawable/sound_max"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tint="#FFFFFF" />
+
+    <ImageButton
+        android:id="@+id/imageButton7"
+        style="@android:style/Widget.DeviceDefault.Light.ImageButton"
+        android:layout_width="75dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="336dp"
+        android:background="@drawable/bg_custom_corners_down"
+        android:baselineAlignBottom="true"
+        android:contentDescription="@android:string/fingerprint_icon_content_description"
+        android:scaleType="fitCenter"
+
+        android:src="@drawable/arrow_drop_down_big"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.726"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tint="#FFFFFF"
+        tools:contentDescription="canal abajo" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        style="@android:style/Widget.DeviceDefault.Light.ImageButton"
+        android:layout_width="75dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="336dp"
+        android:background="@drawable/bg_custom_corners_down"
+        android:baselineAlignBottom="true"
+        android:contentDescription="volumen abajo"
+        android:scaleType="fitCenter"
+
+        android:src="@drawable/sound_min"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.273"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tint="#FFFFFF" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
