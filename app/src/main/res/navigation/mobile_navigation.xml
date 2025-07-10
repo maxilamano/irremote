@@ -21,6 +21,12 @@
         android:name="com.iot.irremote.ui.login.LoginFragment"
         android:label="fragment_login"
         tools:layout="@layout/fragment_login" />
+    <fragment
+        android:id="@+id/navigation_sync"
+        android:name="com.iot.irremote.ui.sync.SyncFragment"
+        android:label="Sincronizar"
+        tools:layout="@layout/fragment_sync" />
+
 
 
 </navigation>
