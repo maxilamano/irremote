@@ -32,7 +32,7 @@ class HomeFragment : Fragment() {
 
         val context = requireContext()
 
-        MqttManager.connect(context.applicationContext,
+        MqttManager.connect(
             onConnected = {
                 // Escuchar respuestas (opcional)
                 MqttManager.subscribeToStatus("dispositivo123") { status ->
